@@ -5815,7 +5815,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x04") (at 18.42 119.58 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005a91da4b)
-    (property "Reference" "J1" (id 0) (at 18.42 110.69 0))
+    (property "Reference" "J2" (id 0) (at 18.42 110.69 0))
     (property "Value" "Conn_01x04" (id 1) (at 18.42 125.93 0))
     (property "Footprint" "kbd:OLED" (id 2) (at 18.42 119.58 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6016,7 +6016,7 @@
   (symbol (lib_id "Device:R") (at 17.25 41.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005aa6d1f3)
-    (property "Reference" "R10" (id 0) (at 19.282 41.56 90))
+    (property "Reference" "R1" (id 0) (at 19.282 41.56 90))
     (property "Value" "R" (id 1) (at 17.25 41.56 90))
     (property "Footprint" "kbd:R" (id 2) (at 15.472 41.56 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6031,7 +6031,7 @@
   (symbol (lib_id "Device:R") (at 22.33 41.56 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005aa6d2a6)
-    (property "Reference" "R11" (id 0) (at 24.362 41.56 90))
+    (property "Reference" "R2" (id 0) (at 24.362 41.56 90))
     (property "Value" "R" (id 1) (at 22.33 41.56 90))
     (property "Footprint" "kbd:R" (id 2) (at 20.552 41.56 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -6078,7 +6078,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 18.75 21.75 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005accf3d8)
-    (property "Reference" "J2" (id 0) (at 18.75 16.035 0))
+    (property "Reference" "J3" (id 0) (at 18.75 16.035 0))
     (property "Value" "Conn_01x03" (id 1) (at 18.75 28.1 0))
     (property "Footprint" "kbd:StripLED_rev" (id 2) (at 18.75 21.75 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6126,7 +6126,7 @@
   (symbol (lib_id "kbd:MJ-4PP-9") (at 25.25 177.5 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005acd605d)
-    (property "Reference" "J3" (id 0) (at 25.25 173.69 0))
+    (property "Reference" "J1" (id 0) (at 25.25 173.69 0))
     (property "Value" "MJ-4PP-9" (id 1) (at 25.25 181.31 0))
     (property "Footprint" "kbd:MJ-4PP-9" (id 2) (at 32.235 173.055 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -6171,7 +6171,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 169.164 154.432 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad785a7)
-    (property "Reference" "L6" (id 0) (at 169.164 154.432 0)
+    (property "Reference" "L24" (id 0) (at 169.164 154.432 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 169.164 155.702 0)
@@ -6192,7 +6192,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 153.67 154.432 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad7881d)
-    (property "Reference" "L3" (id 0) (at 153.67 154.432 0)
+    (property "Reference" "L23" (id 0) (at 153.67 154.432 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 153.67 155.702 0)
@@ -6213,7 +6213,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 137.668 154.432 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad78a03)
-    (property "Reference" "L1" (id 0) (at 137.668 154.432 0)
+    (property "Reference" "L22" (id 0) (at 137.668 154.432 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 137.668 155.702 0)
@@ -6234,7 +6234,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 168.91 168.402 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad78cf3)
-    (property "Reference" "L5" (id 0) (at 168.91 168.402 0)
+    (property "Reference" "L27" (id 0) (at 168.91 168.402 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 168.91 167.132 0)
@@ -6255,7 +6255,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 153.67 168.402 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad78cf9)
-    (property "Reference" "L4" (id 0) (at 153.67 168.402 0)
+    (property "Reference" "L26" (id 0) (at 153.67 168.402 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 153.67 167.132 0)
@@ -6276,7 +6276,7 @@
   (symbol (lib_id "kbd:SK6812MINI") (at 137.922 168.402 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00005ad78cff)
-    (property "Reference" "L2" (id 0) (at 137.922 168.402 0)
+    (property "Reference" "L25" (id 0) (at 137.922 168.402 0)
       (effects (font (size 1.4986 1.4986)))
     )
     (property "Value" "SK6812MINI" (id 1) (at 137.922 167.132 0)
@@ -6428,7 +6428,7 @@
   (symbol (lib_id "Device:R") (at 95 24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1f727b3b-849c-4a5f-a7c8-79035dbab5ff)
-    (property "Reference" "R2" (id 0) (at 89.5 22.25 0)
+    (property "Reference" "R11" (id 0) (at 89.5 22.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "70R" (id 1) (at 89.5 24.79 0)
@@ -6634,7 +6634,7 @@
   (symbol (lib_id "Device:R") (at 59.25 24 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 691336a6-307a-453b-bd55-905621ddd1f2)
-    (property "Reference" "R1" (id 0) (at 53.75 22.25 0)
+    (property "Reference" "R10" (id 0) (at 53.75 22.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "70R" (id 1) (at 53.75 24.79 0)
@@ -6688,10 +6688,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 119.04 185.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 76f0ae03-8a81-4e03-82cc-697b8a2d3dc9)
-    (property "Reference" "J7" (id 0) (at 121.58 185.4999 0)
+    (property "Reference" "J5" (id 0) (at 121.92 185.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (id 1) (at 121.58 188.0399 0)
+    (property "Value" "Conn_01x02" (id 1) (at 121.92 188.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" (id 2) (at 119.04 185.5 0)
@@ -6707,10 +6707,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 89.83 185.5 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7b2842dc-85a2-45a3-ab4f-abecb6110de2)
-    (property "Reference" "J6" (id 0) (at 92.37 185.4999 0)
+    (property "Reference" "J4" (id 0) (at 92.71 185.4999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x02" (id 1) (at 92.37 188.0399 0)
+    (property "Value" "Conn_01x02" (id 1) (at 92.71 188.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" (id 2) (at 89.83 185.5 0)
@@ -7556,26 +7556,26 @@
     (path "/00000000-0000-0000-0000-00005a5e9332"
       (reference "#PWR062") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00005acd605d"
+      (reference "J1") (unit 1) (value "MJ-4PP-9") (footprint "kbd:MJ-4PP-9")
+    )
     (path "/00000000-0000-0000-0000-00005a91da4b"
-      (reference "J1") (unit 1) (value "Conn_01x04") (footprint "kbd:OLED")
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "kbd:OLED")
     )
     (path "/00000000-0000-0000-0000-00005accf3d8"
-      (reference "J2") (unit 1) (value "Conn_01x03") (footprint "kbd:StripLED_rev")
-    )
-    (path "/00000000-0000-0000-0000-00005acd605d"
-      (reference "J3") (unit 1) (value "MJ-4PP-9") (footprint "kbd:MJ-4PP-9")
+      (reference "J3") (unit 1) (value "Conn_01x03") (footprint "kbd:StripLED_rev")
     )
     (path "/00000000-0000-0000-0000-00005ad21c5c"
       (reference "J4") (unit 1) (value "Conn_01x01") (footprint "kbd:1pin_conn")
     )
+    (path "/7b2842dc-85a2-45a3-ab4f-abecb6110de2"
+      (reference "J4") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
+    )
     (path "/00000000-0000-0000-0000-00005ad20e0a"
       (reference "J5") (unit 1) (value "Conn_01x01") (footprint "kbd:1pin_conn")
     )
-    (path "/7b2842dc-85a2-45a3-ab4f-abecb6110de2"
-      (reference "J6") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
-    )
     (path "/76f0ae03-8a81-4e03-82cc-697b8a2d3dc9"
-      (reference "J7") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
+      (reference "J5") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00005a91e324"
       (reference "JP1") (unit 1) (value "SolderJumper_2_Open") (footprint "kbd:Jumper")
@@ -7605,22 +7605,22 @@
       (reference "JP9") (unit 1) (value "SolderJumper_2_Bridged") (footprint "kbd:Jumper")
     )
     (path "/00000000-0000-0000-0000-00005ad78a03"
-      (reference "L1") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
-    )
-    (path "/00000000-0000-0000-0000-00005ad78cff"
-      (reference "L2") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+      (reference "L22") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
     )
     (path "/00000000-0000-0000-0000-00005ad7881d"
-      (reference "L3") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
-    )
-    (path "/00000000-0000-0000-0000-00005ad78cf9"
-      (reference "L4") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
-    )
-    (path "/00000000-0000-0000-0000-00005ad78cf3"
-      (reference "L5") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+      (reference "L23") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
     )
     (path "/00000000-0000-0000-0000-00005ad785a7"
-      (reference "L6") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+      (reference "L24") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+    )
+    (path "/00000000-0000-0000-0000-00005ad78cff"
+      (reference "L25") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+    )
+    (path "/00000000-0000-0000-0000-00005ad78cf9"
+      (reference "L26") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
+    )
+    (path "/00000000-0000-0000-0000-00005ad78cf3"
+      (reference "L27") (unit 1) (value "SK6812MINI") (footprint "kbd:SK6812MINI_underglow_rev")
     )
     (path "/3e09cbd9-e8e6-401f-a591-52ba76436eeb"
       (reference "Q1") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -7640,11 +7640,11 @@
     (path "/58d9c2ce-6daa-4a73-bc7c-e30acbf47c36"
       (reference "Q6") (unit 1) (value "Q_NMOS_GSD") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/691336a6-307a-453b-bd55-905621ddd1f2"
-      (reference "R1") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-00005aa6d1f3"
+      (reference "R1") (unit 1) (value "R") (footprint "kbd:R")
     )
-    (path "/1f727b3b-849c-4a5f-a7c8-79035dbab5ff"
-      (reference "R2") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
+    (path "/00000000-0000-0000-0000-00005aa6d2a6"
+      (reference "R2") (unit 1) (value "R") (footprint "kbd:R")
     )
     (path "/be1dce24-7f93-4305-a06e-795c63fb028d"
       (reference "R3") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -7667,11 +7667,11 @@
     (path "/f21195e4-478e-4ad1-beb5-2dba77f92237"
       (reference "R9") (unit 1) (value "190R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005aa6d1f3"
-      (reference "R10") (unit 1) (value "R") (footprint "kbd:R")
+    (path "/691336a6-307a-453b-bd55-905621ddd1f2"
+      (reference "R10") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
-    (path "/00000000-0000-0000-0000-00005aa6d2a6"
-      (reference "R11") (unit 1) (value "R") (footprint "kbd:R")
+    (path "/1f727b3b-849c-4a5f-a7c8-79035dbab5ff"
+      (reference "R11") (unit 1) (value "70R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/00000000-0000-0000-0000-00005a5eb9e2"
       (reference "RSW1") (unit 1) (value "SW_Push") (footprint "kbd:ResetSW")
