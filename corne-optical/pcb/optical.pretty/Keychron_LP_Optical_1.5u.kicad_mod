@@ -1,4 +1,4 @@
-(footprint "Keychron_LP_Optical" (version 20211014) (generator pcbnew)
+(footprint "Keychron_LP_Optical_1.5u" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 61EC2B5F)
   (descr "https://www.keychron.com/products/low-profile-keychron-optical-switch-set-87-pcs")
@@ -33,7 +33,7 @@
   (fp_circle (center 5.85 -5.85) (end 6.6 -5.85) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 658dad07-97fd-466c-8b49-21892ac96ea4))
   (fp_circle (center -5.85 -5.85) (end -5.1 -5.85) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp 814763c2-92e5-4a2c-941c-9bbd073f6e87))
   (fp_circle (center -5.85 5.85) (end -5.1 5.85) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp a6ccc556-da88-4006-ae1a-cc35733efef3))
-  (fp_rect (start -9.525 -9.525) (end 9.525 9.525) (layer "F.Fab") (width 0.1) (fill none) (tstamp a922c39f-b2ba-4608-85f1-60f073e9997c))
+  (fp_rect (start -9.525 -14.2875) (end 9.525 14.2875) (layer "F.Fab") (width 0.1) (fill none) (tstamp a922c39f-b2ba-4608-85f1-60f073e9997c))
   (fp_rect (start -4 2.25) (end -2 5.25) (layer "User.2") (width 0.12) (fill none) (tstamp 0cc45b5b-96b3-4284-9cae-a3a9e324a916))
   (fp_rect (start 0.8 2.25) (end 2.8 5.25) (layer "User.2") (width 0.12) (fill none) (tstamp 501880c3-8633-456f-9add-0e8fa1932ba6))
   (fp_rect (start -0.8 -5.55) (end 0.8 -4.05) (layer "User.2") (width 0.12) (fill none) (tstamp 51c4dc0a-5b9f-4edf-a83f-4a12881e42ef))
@@ -46,11 +46,11 @@
   (fp_circle (center -1.8 3.75) (end -0.8 3.75) (layer "User.3") (width 0.12) (fill none) (tstamp c4b71743-eabe-4ba0-ab48-57a603cc6775))
   (fp_circle (center 0 0) (end 5.5 0) (layer "User.7") (width 0.12) (fill none) (tstamp 72e50459-a757-45a3-83d2-f1b95d716122))
   (fp_circle (center 0 0) (end 3.75 0) (layer "User.7") (width 0.12) (fill none) (tstamp d1a0190e-b88a-4b64-9d42-d127a71437b3))
-  (pad "" np_thru_hole oval (at 0 -7) (size 5.7 1.7) (drill oval 5.5 1.5) (layers F&B.Cu *.Mask)
+  (pad "0" thru_hole oval (at 0 -7) (size 5.7 1.7) (drill oval 5.5 1.5) (layers *.Cu *.Mask)
     (zone_connect 2) (tstamp 0147f16a-c952-4891-8f53-a9fb8cddeb8d))
-  (pad "" np_thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.3) (layers F&B.Cu *.Mask)
+  (pad "0" thru_hole circle (at 0 0) (size 3.5 3.5) (drill 3.3) (layers *.Cu *.Mask)
     (zone_connect 2) (tstamp 13475e15-f37c-4de8-857e-1722b0c39513))
-  (pad "" np_thru_hole oval (at 0 7) (size 5.7 1.7) (drill oval 5.5 1.5) (layers F&B.Cu *.Mask)
+  (pad "0" thru_hole oval (at 0 7) (size 5.7 1.7) (drill oval 5.5 1.5) (layers *.Cu *.Mask)
     (zone_connect 2) (tstamp e615f7aa-337e-474d-9615-2ad82b1c44ca))
   (pad "1" smd roundrect (at -3.1 3.8) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (zone_connect 2) (tstamp 9f00d18b-34cd-4e2e-926e-8598ab93580c))
@@ -70,4 +70,28 @@
     (zone_connect 2) (tstamp c8da4a60-228e-47aa-83a7-753459dcfb9a))
   (pad "5" smd roundrect (at -5.45 0.5) (size 0 0) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
     (zone_connect 2) (tstamp f2c996b0-2a9e-47c2-af65-a790487cad88))
+  (group "" (id 21474b54-6474-4caf-87ee-21d7b7b3f1ec)
+    (members
+      501880c3-8633-456f-9add-0e8fa1932ba6
+      e091e263-c616-48ef-a460-465c70218987
+    )
+  )
+  (group "" (id 3935b17e-52e8-4308-af9c-35ed0299524b)
+    (members
+      987dc3e2-5670-4857-877c-b84e176d93db
+      c4b71743-eabe-4ba0-ab48-57a603cc6775
+    )
+  )
+  (group "" (id 4b39a7f6-715a-48c1-852a-3be8d02588b8)
+    (members
+      0b5cd311-b447-4fc3-8d87-5ed27b23ad8f
+      62f2fc90-2326-45c3-ac19-94e635acbe6d
+    )
+  )
+  (group "" (id f2f6a257-b878-4f6e-9ee7-1db896280793)
+    (members
+      0cc45b5b-96b3-4284-9cae-a3a9e324a916
+      99332785-d9f1-4363-9377-26ddc18e6d2c
+    )
+  )
 )
